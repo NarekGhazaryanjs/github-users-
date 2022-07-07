@@ -9,10 +9,7 @@ import Text from './components/Text/Text';
 import Card from './ui/Card/Card';
 import classes from './ui/Global.module.css'
 
-// fetch(`https://api.github.com/search/users?q=${searchRef.current.value}&page=${1}&per_page=20`)
 
-//  {login: 'narek', id: 79030, node_id: 'MDQ6VXNlcjc5MDMw', 
-//  avatar_url: 'https://avatars.githubusercontent.com/u/79030?v=4',
 
 const App = () => {
   const [users,setUsers] = useState([]);
